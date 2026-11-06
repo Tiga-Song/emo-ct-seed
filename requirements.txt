@@ -1,0 +1,9 @@
+# Tested with Python 3.12.13 on Windows 10/11.
+# torch must be the CUDA build matching the local GPU (tested: cu130, sm_120 / RTX 5060).
+torch==2.14.1
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+einops==0.8.2
